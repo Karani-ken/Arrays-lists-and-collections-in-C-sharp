@@ -11,6 +11,10 @@ namespace Arrays_lists_and_collections
         static void Main(string[] args)
         {
             //arrays
+           /* string[] friends = new string[4] { "John", "james", "Jane", "Joe" };
+            friends[0] = "Jack";
+            friends[1] = "Julius";
+           Console.WriteLine(friends[0])*/
             var names = new List<string> {"Kenneth","Jimmy","Grace","Miriam","Maureen"};
             names.Add("Teddy");
             //names.Remove("Kenneth");
